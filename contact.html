@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Taskorkly</title>
+<meta name="description" content="Get in touch with Taskorkly, suggest a comparison, or get notified when the app launches.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="brand">Taskorkly<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="comparisons.html">Comparisons</a></li>
+      <li><a href="app.html">App</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h1>Suggest a comparison, or say hello.</h1>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap contact-grid">
+      <div>
+        <form class="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="topic">What's this about</label>
+            <select id="topic" name="topic">
+              <option>Suggest a comparison</option>
+              <option>App launch notification</option>
+              <option>Correction or feedback</option>
+              <option>Partnership / other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-note" style="font-size: 0.85rem; color: var(--slate);"></p>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <p style="max-width: 46ch;">This form isn't connected to a backend yet — for now, email works best.</p>
+        <dl>
+          <dt>Email</dt>
+          <dd>hello@taskorkly.com</dd>
+          <dt>Response time</dt>
+          <dd>Usually within 2–3 days</dd>
+          <dt>Comparison suggestions</dt>
+          <dd>Tell us the two (or three) options you're stuck choosing between.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <a href="index.html" class="brand">Taskorkly<span class="dot">.</span></a>
+      <ul class="footer-links">
+        <li><a href="comparisons.html">Comparisons</a></li>
+        <li><a href="app.html">App</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-note">Taskorkly independently researches and tests every comparison. Some links may be affiliate links, which don't change what you pay. © 2026 Taskorkly.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
